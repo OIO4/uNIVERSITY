@@ -1,0 +1,54 @@
+﻿body {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+form {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    width: 90%;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="date"], input[type="email"], input[type="tel"], input[type="search"],input[type="checkbox"]{
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[disabled] {
+    background-color: #eee;
+}
+
+input[type=submit] {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background-color: #5d5555;
+    color: white;
+    padding: 14px 20px;
+    margin: 0px 0 8px 36px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+gridview {
+    align-content: center;
+    text-align: center;
+    place-content:center;
+}
